@@ -32,7 +32,7 @@ function Projects(){
                         </a>
                     </div>
                     <div className={styles.Card}>
-                    <Card title={'Landing Page'} tech={'HTML, CSS e Javascript'} 
+                    <Card title={'Landing Page'} tech={'HTML, CSS e Javascript FUNCIONA?'} 
                     resume={'Habilidades de Front-End adquiridas durante o segundo projeto após um mês de curso.'}/>
                     </div>
                 </div>
