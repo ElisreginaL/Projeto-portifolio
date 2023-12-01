@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+    justify-content: space-around;
+    text-align: center; 
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(1, 9, 28, 0.51);
+    border-radius: 0px 20px 0px 0px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.footer p{
+    font-size: 13.5px;
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer li{
+    margin: 10px;
+}
+
+.footer a{
+    color: white !important;
+}

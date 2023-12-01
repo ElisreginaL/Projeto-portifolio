@@ -1,0 +1,31 @@
+
+.Projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.projectsimg{
+    display: flex;
+}
+
+
+
+.projectsimg img{
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.projectsimg img:hover{
+    transform: translateY(-10px);
+    transition: 500ms;
+}
+
+.Card{
+    background-color: rgba(1, 9, 28, 0.75);
+    width: 500px;
+    height: 263px;
+    border-radius: 20px;
+    padding-left: 20px;
+}

@@ -1,0 +1,16 @@
+.btn{
+    background-color: aqua;
+    width: fit-content;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: rgb(24, 24, 92);
+    color: aliceblue;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: 500ms;
+}
