@@ -6,7 +6,7 @@ function Presentation(){
     const [text, setText] = useState('');
     const toRotate = ['a Elisregina Lobo', 'Desenvolvedora Front End'];
     const [loop, setLoop] = useState(0);
-    const [isDeliting, setIsDeliting] = useState(false);
+    const [isDeleting, setIsDeliting] = useState(false);
     const period = 1000;
     const [delta, setDelta] =useState(100);
 
@@ -24,11 +24,11 @@ function Presentation(){
         
         setText(updatedText);
 
-        if(!isDeliting && updatedText === fullText){
+        if(!isDeleting && updatedText === fullText){
             setIsDeliting(true);
             setDelta(period);
         }
-        else if (isDeliting && updatedText = ''){
+        else if (isDeleting && updatedText === ''){
             setIsDeliting(false);
             setDelta(period);
             setLoop(loop+1);
@@ -43,7 +43,7 @@ function Presentation(){
     return(
         <div id="Presentation" className={styles.Presentation}>
             <h2>Bem-vindo(a) ao meu portifólio</h2>
-            <h1> Olá, eu sou Elisregina</h1>
+            <h1> Olá, eu sou {toRotate}</h1>
             <p>
                 Atualmente, aprimoro minhas habilidades em Front End (HTML, CSS, 
                 JavaScript e React) e desenvolvo habilidades de back-end por meio do  
